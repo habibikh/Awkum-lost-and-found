@@ -1,0 +1,9 @@
+# Ignore Python environment/cache
+__pycache__/
+.venv/
+
+# Ignore local database file
+lost_found_data.json
+
+# Ignore API Key file (if using local environment variables)
+.env
